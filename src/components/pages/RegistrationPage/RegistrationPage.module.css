@@ -1,0 +1,75 @@
+/* Общие стили для контейнера */
+.container {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Стили для формы */
+.reg-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Стили для контейнера полей ввода */
+.reg-form__inp-container {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: start;
+    gap: 5px;
+}
+
+/* Стили для полей ввода */
+.reg-form__inp {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+.reg-form__inp:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+/* Стили для кнопки регистрации */
+.reg-form__reg-btn {
+    padding: 15px;
+    width: 100%;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.reg-form__reg-btn:hover {
+    background-color: #0056b3;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.reg-form__reg-btn:active {
+    background-color: #004080;
+}
+
+.reg-form__reg-btn:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.25);
+}
+
+/* Стили для меток */
+label {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}

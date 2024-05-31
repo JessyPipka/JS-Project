@@ -1,0 +1,116 @@
+.my-profile__container {
+    display: flex;
+    margin: 20px;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.my-profile__img {
+    --size: 50px;
+    width: var(--size);
+    height: var(--size);
+    border-radius: 50%;
+    border: 2px solid #ddd;
+    object-fit: cover;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.my-profile__name {
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.my-profile__name:hover {
+    color: #007bff;
+}
+
+
+.user-search-inp {
+    margin: 30px auto;
+    width: 50%;
+    max-width: 700px;
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    font-size: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    display: block;
+}
+
+.user-search-inp:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.5);
+    outline: none;
+}
+
+
+.users-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 5fr));
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.paginator {
+    display: flex;
+    padding: 10px 50px;
+    gap: 5px;
+    justify-content: center; 
+}
+
+.paginator__btn {
+    --size: 30px;
+    width: var(--size);
+    height: var(--size);
+    border: 1px solid #333;
+    border-radius: 4px;
+    background: none;
+}
+
+.paginator__btn:hover {
+    color: #fff;
+    background: #333;
+}
+
+.paginator__btn-active {
+    color: #fff;
+    background: #502aaf;
+}
+.my-profile__but {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: #dc3545;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.my-profile__but:hover {
+    background-color: #c82333;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.my-profile__but:active {
+    background-color: #bd2130;
+}
+
+.my-profile__but:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(220, 53, 69, 0.5);
+}
+

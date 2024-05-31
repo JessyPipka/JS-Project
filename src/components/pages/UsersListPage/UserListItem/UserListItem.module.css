@@ -1,0 +1,39 @@
+.user-list-item {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.user-list-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.user-list-item__img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.user-list-item__name {
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+}
+
+.user-list-item__name:hover {
+    color: blue;
+    font-size: 22px;
+    transition: all 150ms linear;
+}
+
+.user-email {
+    font-size: 14px;
+    color: #666;
+}

@@ -1,0 +1,73 @@
+.user-edit__modal {
+    width: 50%;
+    max-width: 500px;
+    padding: 20px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    margin: 30 px;
+}
+
+.user-edit__modal__form {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.user-editmodalform__input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Увеличен промежуток между полями */
+    padding: 20px; /* Добавлен отступ внутри контейнера */
+    background-color: #f9f9f9; /* Светлый фон для контейнера */
+    border-radius: 8px; /* Более округлые края */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Добавлена тень */
+}
+
+.user-editmodalform__input-container input:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.user-editmodalform__btns {
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+}
+
+.labels {
+    font-size: 14px; /* Размер шрифта */
+    color: #495057; /* Цвет текста */
+    margin-bottom: 4px;
+}
+
+.user-editmodalform__close-btn,
+.user-editmodalform__confirm-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.user-editmodalform__close-btn {
+    background-color: #6c757d;
+    color: #ffffff;
+    margin-right: 170px
+}
+
+.user-editmodalform__close-btn:hover {
+    background-color: #5a6268;
+}
+
+.user-editmodalform__confirm-btn {
+    background-color: #28a745;
+    color: #ffffff;
+}
+
+.user-editmodalform__confirm-btn:hover {
+    background-color: #218838;
+}
+
+
